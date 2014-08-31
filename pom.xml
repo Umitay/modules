@@ -26,6 +26,8 @@
     <module>default</module>
     <module>admin</module>
     <module>umimodules-war</module>
+    <module>core</module>
     <module>umimodules-ear</module>
   </modules>
+  
 </project>
