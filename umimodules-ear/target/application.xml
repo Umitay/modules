@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" version="5">
+  <display-name>umimodules-ear</display-name>
+  <module>
+    <web>
+      <web-uri>umimodules-war-1.war</web-uri>
+      <context-root>/umimodules-war</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>default-1.war</web-uri>
+      <context-root>/default</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>admin-1.war</web-uri>
+      <context-root>/admin</context-root>
+    </web>
+  </module>
+  <library-directory>lib</library-directory>
+</application>
