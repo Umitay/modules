@@ -23,8 +23,9 @@
       </pluginManagement>
   </build>
   <modules>
-    <module>umimodules-war</module>
     <module>default</module>
+    <module>admin</module>
+    <module>umimodules-war</module>
     <module>umimodules-ear</module>
   </modules>
 </project>

@@ -11,6 +11,12 @@
   </module>
   <module>
     <web>
+      <web-uri>admin</web-uri>
+      <context-root>admin</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
       <web-uri>umimodules-war-1.war</web-uri>
       <context-root>/umimodules-war</context-root>
     </web>
