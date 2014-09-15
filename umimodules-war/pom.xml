@@ -3,14 +3,14 @@
 
     <modelVersion>4.0.0</modelVersion>
     <packaging>war</packaging>
-    <version>1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <groupId>com.umi</groupId>
     <artifactId>umimodules-war</artifactId>
 
     <parent>
         <groupId>com.umi</groupId>
         <artifactId>umimodules</artifactId>
-        <version>1</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <properties>
@@ -20,6 +20,11 @@
 
     <dependencies>
         <!-- Compile/runtime dependencies -->
+        <dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.6.1</version>
+</dependency>
         <dependency>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-api-1.0-sdk</artifactId>
@@ -71,6 +76,7 @@
                         </resource>
                     </webResources>
                 </configuration>
+                
             </plugin>
         </plugins>
     </build>

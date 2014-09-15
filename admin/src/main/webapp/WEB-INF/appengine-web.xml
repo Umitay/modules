@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
-    <application>umimodules</application>
-    <module>admin</module>
-    <version>2</version>
+    <application>admin</application>
+    <version>${appengine.app.version}</version>
     <threadsafe>true</threadsafe>
     
     <system-properties>

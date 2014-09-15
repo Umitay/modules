@@ -3,20 +3,8 @@
   <display-name>umimodules-ear</display-name>
   <module>
     <web>
-      <web-uri>umimodules-war-1.war</web-uri>
+      <web-uri>umimodules-war-0.0.1-SNAPSHOT.war</web-uri>
       <context-root>/umimodules-war</context-root>
-    </web>
-  </module>
-  <module>
-    <web>
-      <web-uri>default-1.war</web-uri>
-      <context-root>/default</context-root>
-    </web>
-  </module>
-  <module>
-    <web>
-      <web-uri>admin-1.war</web-uri>
-      <context-root>/admin</context-root>
     </web>
   </module>
   <library-directory>lib</library-directory>

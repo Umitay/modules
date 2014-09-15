@@ -4,13 +4,13 @@
 
   <groupId>com.umi</groupId>
   <artifactId>umimodules-ear</artifactId>
-  <version>1</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>ear</packaging>
 
   <parent>
     <groupId>com.umi</groupId>
     <artifactId>umimodules</artifactId>
-    <version>1</version>
+    <version>0.0.1-SNAPSHOT</version>
   </parent>
 
   <build>
@@ -37,26 +37,8 @@
     <dependency>
       <groupId>com.umi</groupId>
       <artifactId>umimodules-war</artifactId>
-      <version>1</version>
+      <version>0.0.1-SNAPSHOT</version>
       <type>war</type>
-    </dependency>
-    <dependency>
-      <groupId>com.umi</groupId>
-      <artifactId>default</artifactId>
-      <version>1</version>
-      <type>war</type>
-    </dependency>
-     <dependency>
-      <groupId>com.umi</groupId>
-      <artifactId>admin</artifactId>
-      <version>1</version>
-      <type>war</type>
-    </dependency>
-     <dependency>
-      <groupId>com.umi</groupId>
-      <artifactId>core</artifactId>
-      <version>1</version>
-      <type>jar</type>
     </dependency>
   </dependencies>
 </project>

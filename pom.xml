@@ -3,12 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.umi</groupId>
   <artifactId>umimodules</artifactId>
-  <version>1</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <appengine.target.version>1.8.7</appengine.target.version>
+    <appengine.target.version>1.9.11</appengine.target.version>
   </properties>
 
   <build>
@@ -19,15 +19,12 @@
                   <artifactId>appengine-maven-plugin</artifactId>
                   <version>${appengine.target.version}</version>
               </plugin>
-          </plugins>
+           </plugins>
       </pluginManagement>
   </build>
   <modules>
-    <module>default</module>
-    <module>admin</module>
     <module>umimodules-war</module>
-    <module>core</module>
     <module>umimodules-ear</module>
+    <module>admin</module>
   </modules>
-  
 </project>
